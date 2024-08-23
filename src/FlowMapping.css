@@ -1,0 +1,33 @@
+.mapping-output {
+    margin-top: 20px;
+  }
+  
+  .mapping-output h3 {
+    margin-top: 0;
+  }
+  
+  .mapping-output ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .mapping-output li {
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 5px;
+  }
+  
+  .react-flow__node-sourceNode,
+  .react-flow__node-targetNode {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+  
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: -1000;
+    }
+  }
+  
